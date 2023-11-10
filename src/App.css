@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #f7f7f7; 
+}
+
+.game {
+  width: 90%; 
+  max-width: 600px; 
+  padding: 20px;
+  margin: 0 auto; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
+.scoreboard {
+  margin-bottom: 20px;
+}
+
+.hand {
+  margin: 10px 0;
+}
+
+.card {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.card.red {
+  color: red;
+}
+
+.card.black {
+  color: black;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.win-message {
+  color: green;
+}
+
+.loss-message {
+  color: red;
+}
+
+.draw-message {
+  color: orange;
+}
